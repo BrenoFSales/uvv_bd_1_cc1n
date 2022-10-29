@@ -1,2 +1,2 @@
-# uvv_bd_1_cc1n
+# pset
 Repositório das minhas práticas de banco de dados primeiro período.
