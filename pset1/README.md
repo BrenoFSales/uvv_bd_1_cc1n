@@ -4,7 +4,7 @@ Neste repositório irei documentar o processo de realização do meu primeiro ps
 
 1. Primeiramente elaborei o projeto lógico de um banco de dados de recursos humanos de uma empresa, dentro do software SQL Power Architect. Como mostrado logo a seguir.
 
-![Imagem do projeto lógico](https://github.com/BrenoFSales/uvv_bd_1_cc1n/blob/main/pset1/projeto_lógico.jpg)
+![Imagem do projeto lógico](https://github.com/BrenoFSales/uvv_bd_1_cc1n/blob/main/pset1/Projeto-lógico.png)
 
 2. Em seguida criei um usuário e o banco de dados a serem usados no projeto.
 
