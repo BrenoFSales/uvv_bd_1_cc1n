@@ -91,7 +91,7 @@ e ambientes relativos a empresa. Não contém informações de clientes.</remark
     <column id="COL22" populated="true" UUID="403c7635-80c1-4370-9d11-61639b765369" autoIncrement="false" autoIncrementSequenceName="localizacoes_cidade_seq" defaultValue="" name="cidade" nullable="1" physicalName="cidade" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Nome da cidade onde está localizado o ambiente relaciona à empresa.</remarks>
     </column>
-    <column id="COL23" populated="true" UUID="286ec1c3-c190-4000-b946-23ec12b3a80f" autoIncrement="false" autoIncrementSequenceName="localizacoes_id_pais_seq" defaultValue="" name="id_pais" nullable="0" physicalName="id_pais" precision="0" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL23" populated="true" UUID="286ec1c3-c190-4000-b946-23ec12b3a80f" autoIncrement="false" autoIncrementSequenceName="localizacoes_id_pais_seq" defaultValue="" name="id_pais" nullable="0" physicalName="id_pais" precision="2" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
      <remarks>Chave estrangeira referente a tabela países.</remarks>
     </column>
     </folder>
@@ -137,7 +137,7 @@ e ambientes relativos a empresa. Não contém informações de clientes.</remark
   <table id="TAB35" populated="true" UUID="7982cca1-e10a-48ec-b15a-8eca9a1824aa" name="paises" objectType="TABLE" physicalName="paises" >
    <remarks>Table que contém as informações relativas a países.</remarks>
    <folder id="FOLTAB351" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL36" populated="true" UUID="b9daa9bf-190d-40ac-9ad2-6a21b9321ed5" autoIncrement="false" autoIncrementSequenceName="paises_id_pais_seq" defaultValue="" name="id_pais" nullable="0" physicalName="id_pais" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL36" populated="true" UUID="b9daa9bf-190d-40ac-9ad2-6a21b9321ed5" autoIncrement="false" autoIncrementSequenceName="paises_id_pais_seq" defaultValue="" name="id_pais" nullable="0" physicalName="id_pais" precision="2" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
      <remarks>Chave primária da tabela paises.</remarks>
     </column>
     <column id="COL37" populated="true" UUID="e3d3ea95-0d6a-4782-882c-cd17ef98a68a" autoIncrement="false" autoIncrementSequenceName="paises_nome_seq" defaultValue="" name="nome" nullable="0" physicalName="nome" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
@@ -266,22 +266,22 @@ e ambientes relativos a empresa. Não contém informações de clientes.</remark
    </relationship>
   </relationships>
  </target-database>
- <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="false" target-schema="hr"> </ddl-generator>
+ <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="true" target-schema="hr"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
- <play-pen zoom="0.8408964152537142" viewportX="448" viewportY="445" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
-  <table-pane table-ref="TAB1" x="362" y="248" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB8" x="1349" y="585" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB17" x="752" y="156" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB26" x="861" y="452" bgColor="0xc8b7ea" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB35" x="377" y="436" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB43" x="880" y="718" bgColor="0xeec994" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB58" x="1384" y="970" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-link relationship-ref="REL71" pkConnection="0.8166666666666667" fkConnection="0.17484662576687116" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="129"/>
+ <play-pen zoom="0.4999999999999996" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB1" x="20" y="112" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB8" x="1008" y="450" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB17" x="410" y="20" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB26" x="520" y="316" bgColor="0xc8b7ea" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB35" x="36" y="300" bgColor="0xbfd6ff" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB43" x="538" y="582" bgColor="0xeec994" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB58" x="1042" y="834" bgColor="0xc8dccc" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL71" pkConnection="0.9" fkConnection="0.14893617021276595" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="33"/>
   <table-link relationship-ref="REL69" pkConnection="0.7211538461538461" fkConnection="0.3424242424242424" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="132"/>
-  <table-link relationship-ref="REL75" pkConnection="0.16161616161616163" fkConnection="0.0784313725490196" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="65"/>
-  <table-link relationship-ref="REL67" pkConnection="0.5036496350364964" fkConnection="0.4492753623188406" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="132"/>
-  <table-link relationship-ref="REL77" pkConnection="0.24796747967479674" fkConnection="0.8652482269503546" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL75" pkConnection="0.4931506849315068" fkConnection="0.5096153846153846" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL67" pkConnection="0.5102739726027398" fkConnection="0.4863013698630137" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL77" pkConnection="0.24796747967479674" fkConnection="0.9290780141843972" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="33"/>
   <table-link relationship-ref="REL79" pkConnection="0.1262135922330097" fkConnection="0.8373983739837398" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="36"/>
   <table-link relationship-ref="REL73" pkConnection="0.4447852760736196" fkConnection="0.4077669902912621" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="132"/>
   <table-link relationship-ref="REL81" pkConnection="0.44983818770226536" fkConnection="0.5368098159509203" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="72"/>
